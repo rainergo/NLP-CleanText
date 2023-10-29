@@ -145,4 +145,4 @@ RE_ABBREVIATION: Pattern = re.compile(r"(?<!-)\b[a-zA-Z]{1,7}\.\-{0,1}(?:[a-zA-Z
 
 if __name__ == '__main__':
     # Print pattern of any compiled object:
-    print(RE_MEASUREMENTS_PERIOD.pattern)
+    print(RE_SENTS_WITH_LISTINGS.pattern)
